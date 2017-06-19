@@ -6,7 +6,7 @@ The source code is on [GitHub](https://github.com/CodinGame/rust-template), plea
 
 # Hands-on Demo
 
-@[Luke, how many stars are there in these galaxies?]({ "stubs": [ "src/lib.rs" ], "command": "cargo test test_universe" })
+@[Luke, how many stars are there in these galaxies?]({ "stubs": [ "src/lib.rs" ], "command": "cargo test -q --test test test_universe" })
 
 Check out the markdown file [`welcome.md`](https://github.com/CodinGame/rust-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
