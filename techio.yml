@@ -1,17 +1,11 @@
-title: Advanced Rust template
-
-# Table of contents
+title: Rust Project
 plan:
-  - title: Welcome # Set the page title
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
-
-# Settings for your programming projects and the associated Docker images
+- title: Welcome
+  statement: markdowns/welcome.md
 projects:
   rust:
-    root: "/rust-project"
     buildCommand: cargo build
-    # Set the docker image. This image runs a command line directly using this syntax, for instance:
-    # @[Code Editor Title]({"stubs": ["src/lib.rs", ...], "command": "cargo test --release test_universe"})
-    runner: techio/rust:latest
+    root: /rust-project
+    runner:
+      name: techio/rust
+      version: latest
